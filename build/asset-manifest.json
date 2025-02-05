@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MyEstore/static/css/main.d58cb472.css",
+    "main.js": "/MyEstore/static/js/main.a88850b2.js",
+    "static/js/488.559b3841.chunk.js": "/MyEstore/static/js/488.559b3841.chunk.js",
+    "static/media/banner1.png": "/MyEstore/static/media/banner1.98841a22e42a78cbff66.png",
+    "static/media/Rectangle15.png": "/MyEstore/static/media/Rectangle15.d8d54bd64f9a7991bdc7.png",
+    "static/media/Cloth9.png": "/MyEstore/static/media/Cloth9.5a1b44aa36f1410d8439.png",
+    "static/media/Cloth6.png": "/MyEstore/static/media/Cloth6.96f5e11558643b0a7f12.png",
+    "static/media/Cloth8.png": "/MyEstore/static/media/Cloth8.6d331c6244c68441764e.png",
+    "static/media/Cloth3.png": "/MyEstore/static/media/Cloth3.37dc97980df316c19ded.png",
+    "static/media/Rectangle 13.png": "/MyEstore/static/media/Rectangle 13.05811498121983f2aba1.png",
+    "static/media/Cloth5.png": "/MyEstore/static/media/Cloth5.4bab42cabd13ffb756bb.png",
+    "static/media/Cloth7.png": "/MyEstore/static/media/Cloth7.2583c005df9c3f5dc5a8.png",
+    "static/media/cloth4.png": "/MyEstore/static/media/cloth4.758fd22ed91bf05bfb30.png",
+    "static/media/Cloth2.png": "/MyEstore/static/media/Cloth2.bd5f359322fca6f464d2.png",
+    "static/media/Cloth1.png": "/MyEstore/static/media/Cloth1.2e4d89f1aa91a48dd977.png",
+    "static/media/Rectangle 14.png": "/MyEstore/static/media/Rectangle 14.357824cfc230556233e6.png",
+    "static/media/Rectangle 12.png": "/MyEstore/static/media/Rectangle 12.51e1930afea681f7808d.png",
+    "static/media/Rectangle 11.png": "/MyEstore/static/media/Rectangle 11.de1fdf58c4d711921d99.png",
+    "index.html": "/MyEstore/index.html",
+    "main.d58cb472.css.map": "/MyEstore/static/css/main.d58cb472.css.map",
+    "main.a88850b2.js.map": "/MyEstore/static/js/main.a88850b2.js.map",
+    "488.559b3841.chunk.js.map": "/MyEstore/static/js/488.559b3841.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d58cb472.css",
+    "static/js/main.a88850b2.js"
+  ]
+}
