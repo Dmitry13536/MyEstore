@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MyButton from "./MyButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faStar } from "@fortawesome/free-solid-svg-icons";
-import { useGoods } from "../AppContext";
+// import { useGoods } from "../AppContext";
 import useIsLargeScreen from "../LargeScreen";
 
 
@@ -13,8 +13,8 @@ function CardProto({Irl, cost, name, func, func1, id, star }){
     const computer = useIsLargeScreen();
     const [choosen, setChoosen] = useState(false);
     const [choosen1, setChoosen1] = useState(false);
-    const {handleRemoveGood} = useGoods();
-    const [flag, setFlag] = useState(0);
+    // const {handleRemoveGood} = useGoods();
+    // const [flag, setFlag] = useState(0);
     const [flag1, setFlag1] = useState(0);
 
     const toggleChosen = () => {

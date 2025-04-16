@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Navigation from "./Navigation";
-import Header from "./Header";
+// import Navigation from "./Navigation";
+// import Header from "./Header";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./Card";

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import MyButton from "./MyButton";
 import { useGoods, useStars } from "../AppContext";
 import img1 from '../Imgs/Cloth1.png';
 import img2 from '../Imgs/Cloth2.png';
@@ -72,7 +71,7 @@ function Card({button, Count}) {
         setCards(newCards); // Обновляем состояние
     };
 
-    useEffect(() =>generateCards(Count), []);
+    useEffect(() =>generateCards(Count), [Count]);
 
     const funcCard = ({ name, cost, Irl})=>handleAddGood({id:new Date().getMilliseconds(), name:name, cost:cost, cImg:Irl})
     const func1Card = ({ name, cost, Irl})=>handleAddStar({id:new Date().getMilliseconds(), name:name, cost:cost, cImg:Irl})
