@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card";
-import useIsLargeScreen from "../LargeScreen";
+// import useIsLargeScreen from "../LargeScreen";
 
 function Counter(){
-    const computer = useIsLargeScreen();
+    // const computer = useIsLargeScreen();
 
     return(
         <div className="counter">

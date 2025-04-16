@@ -13,8 +13,8 @@ function CardProto({Irl, cost, name, func, func1, id, star }){
     const computer = useIsLargeScreen();
     const [choosen, setChoosen] = useState(false);
     const [choosen1, setChoosen1] = useState(false);
-    const {handleRemoveGood} = useGoods();
-    const [flag, setFlag] = useState(0);
+    // const {handleRemoveGood} = useGoods();
+    // const [flag, setFlag] = useState(0);
     const [flag1, setFlag1] = useState(0);
 
     const toggleChosen = () => {

@@ -3,7 +3,7 @@ import MyButton from './MyButton';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faCartShopping, faHouse, faMagnifyingGlass, faStar, faUser } from "@fortawesome/free-solid-svg-icons";
 import useIsLargeScreen from "../LargeScreen";
-import Sidebutton from "./Sidebutton";
+// import Sidebutton from "./Sidebutton";
 import { useSidebar } from "../AppContext";
 import { useNavigate } from "react-router-dom";
 

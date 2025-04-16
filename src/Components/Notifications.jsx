@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "./Navigation";
-import Header from "./Header";
+// import Navigation from "./Navigation";
+// import Header from "./Header";
 
 function Notifications(){
     return(

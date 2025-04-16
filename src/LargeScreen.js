@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function useIsLargeScreen() {
     const [isLarge, setIsLarge] = useState(window.innerWidth > 1000);

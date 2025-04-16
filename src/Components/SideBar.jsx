@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef} from "react";
 import { useSidebar } from "../AppContext";
 import { Link } from "react-router-dom";
 import useIsLargeScreen from "../LargeScreen";
@@ -18,7 +18,7 @@ function SideBar(){
 
         document.addEventListener('click', ClickOutSidebar);
         return () =>{document.removeEventListener('click', ClickOutSidebar)};
-    },[])
+    },[setVisiable])
 
 
 
