@@ -26,8 +26,6 @@ export const Provider = ({children}) => {
         console.log(goods)
     }
 
-    const handleHardRemoveGood = {}
-
     const [visible, setVisiable] = useState(false);
     const toggleVisiable = (event) =>{
         event.stopPropagation();

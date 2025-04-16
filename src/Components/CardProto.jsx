@@ -62,7 +62,7 @@ function CardProto({Irl, cost, name, func, func1, id, star }){
                                 <div className="card__info--buttons">
                                 <MyButton className='card__info--button' text={<FontAwesomeIcon icon={faCartShopping} 
                                  onClick={handleClick1} />} choosen={choosen} />
-                                {defStar && <MyButton className='card__info--button' choosen={choosen} onClick={handleClick2} text={<FontAwesomeIcon icon={faStar}  />} />} 
+                                {defStar && <MyButton className='card__info--button' choosen={choosen1} onClick={handleClick2} text={<FontAwesomeIcon icon={faStar}  />} />} 
                                 </div>
                             </div>
                         </div>
