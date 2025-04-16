@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import MyButton from "./MyButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faStar } from "@fortawesome/free-solid-svg-icons";
@@ -52,7 +52,7 @@ function CardProto({Irl, cost, name, func, func1, id, star }){
                 <div  >
                     {computer ? 
                     <div className="card">
-                        <div className="card__img"><img className="card--img" src={`http://localhost:3000${Irl}`} alt="Пвв" /></div>
+                        <div className="card__img"><img className="card--img" src={Irl} alt="Пвв" /></div>
                         <div className="card__info">
                             <div className="card__info--title">
                                 <p>{name}</p>

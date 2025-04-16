@@ -24,6 +24,10 @@ body{
   }
 }
 
+a{
+  text-decoration: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -55,14 +59,11 @@ body{
   
   font-size: 16px;
   border-radius: 13px;
-  padding: 3%;
+  padding: 6%;
   width: 3em;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
 }
 
-.mybutton.active{
-
-}
 
 .myButton--text{
   display: flex;
@@ -119,6 +120,7 @@ button.mybutton:active{
 
 .headder--title{
   color: white;
+  cursor: pointer;
 }
 
 .headder--title:hover{
@@ -312,6 +314,7 @@ width: 100%;
 }
 
 .card{
+  height: 18rem;
   background-color: white;
   border-radius: 20px;
   display: flex;
@@ -402,7 +405,7 @@ width: 100%;
 
   .mybutton{
     font-size: 20px;
-    padding: 5% 7%;
+    padding: 10rem;
   }
 
   .cards{
@@ -500,7 +503,7 @@ width: 100%;
 
   .card button{
     padding: 5%;
-    width: 2em;
+    /* width: 2em; */
     height: 50%;
     font-size: 16px;
   }
