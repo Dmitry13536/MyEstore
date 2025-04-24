@@ -16,7 +16,7 @@ import Counter from './Components/Counter';
 function App() {
   const computer = useIsLargeScreen();
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='MyEstore'>
     <Provider>
       <div className="App">
         <SideBar />
