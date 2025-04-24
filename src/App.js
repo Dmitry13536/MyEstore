@@ -20,11 +20,7 @@ function App() {
     <Provider>
       <div className="App">
         <SideBar />
-        <Header />
-        {(!computer) && <Navigation />}
-      </div>
-    
-    <Routes>
+          <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/Cart' element={<Cart />}/>
       <Route path='/search' element={<Search />} />
@@ -32,6 +28,11 @@ function App() {
       <Route path='/notif' element={<Notifications/>}/>
       <Route path='/counter' element={<Counter />} />
     </Routes>
+        <Header />
+        {(!computer) && <Navigation />}
+      </div>
+    
+    
     </Provider>
     </BrowserRouter>
   );
